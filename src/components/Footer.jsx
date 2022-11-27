@@ -9,6 +9,7 @@ function Footer() {
 						<div className="flex flex-wrap justify-center gap-2">
 							<a 
 								href="https://www.linkedin.com/in/dylanstocking/"
+                                target="_blank"
 								className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
 								<svg
 								className="w-5 h-5 fill-current"
@@ -23,6 +24,7 @@ function Footer() {
 							</a>
 							<a 
 								href="https://github.com/PhantomLeak"
+                                target="_blank"
 								className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
 								<svg
 								xmlns="http://www.w3.org/2000/svg"
