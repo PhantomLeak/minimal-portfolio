@@ -2,9 +2,9 @@ export default [
     {
        year: 'Today',
        title: 'Associate Developer',
-       duration: '11 Months',
+       duration: '2021 - Current',
        details: 
-          "Finally landing my dream job as a full-stack dev with an amazing company (Can't go into details for security reasons).",
+          "Finally landed my dream job as a full-stack dev with an amazing company called LifeCycle Insights.",
     },
     {
         year: '2021',

@@ -31,7 +31,7 @@ function Header() {
                 onClick={handleThemeSwitch}
                 className="fixed p-2 z-10 right-5 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md"
             >
-                {theme === 'dark' ? <i class="fa-solid fa-sun"/> : <i class="fa-solid fa-moon"/>}
+                {theme === 'dark' ? <i className="fa-solid fa-sun"/> : <i className="fa-solid fa-moon"/>}
             </button>
 		</div>
 	);
