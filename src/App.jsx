@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Header from './components/Header'
 import Intro from './components/Intro'
 import GitHubComponent from './components/GitHubComponent'
+import Goals from './components/Goals'
 import Timeline from './components/Timeline'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -16,6 +17,7 @@ function App() {
         <div className="max-w-5xl w-11/12 mx-auto">
           <Intro />
           <GitHubComponent />
+          <Goals />
           <Timeline />
           <Contact />
           <Footer />
