@@ -8,7 +8,7 @@ function Timeline() {
       <div className="flex flex-col md:flex-row justify-center my-10">
          <div className="w-full md:w-7/12">
             <Title>Timeline</Title>
-            {timeline.map(item => (
+            {timeline.forEach(item => (
                <TimelineItem 
                   key={item.title}
                   year={item.year}
