@@ -35,3 +35,4 @@ export default [
              "I wrote my first line of real code that started this journey into digital craftsmanship that I never could've imagined, especially as someone who never saw themselves as anything other than a blue collar worker.",
      },
  ]
+ 
