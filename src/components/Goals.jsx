@@ -6,7 +6,7 @@ function Goals() {
       <div className="flex flex-wrap justify-center items-center">
          <div>
             <Title>Goals for {new Date().getFullYear()}</Title>
-            <div className='ml-3'>
+            <div>
                 <li><i class="fa-brands fa-rust"></i> Learn Rust</li>
                 <li><i class="fa-brands fa-python"></i> Fiddle with machine learning</li>
                 <li><i class="fa fa-book"></i> Get Back Into Reading Daily</li>
@@ -14,7 +14,7 @@ function Goals() {
          </div>
          <div className="mx-6">
             <Title>Current Projects</Title>
-            <div className="ml-3">
+            <div>
                <li className='underline hover:text-blue-500'>
                   <a href='https://github.com/PhantomLeak/Alfred' target='_blank'>
                      <i class="fa-brands fa-python mr-1"></i>
