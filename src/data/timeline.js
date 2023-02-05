@@ -8,10 +8,10 @@ export default [
     },
     {
         year: '2021',
-        title: "Bachelor's Degree in Computer Information Systems",
+        title: "Bachelor's Degree",
         duration: '5 years',
         details:
-            'I pursued the knowledge that a computer information systems degree had to offer. I learned about computer architecture, computer science theory, an array of programming, and aspects of artificial intelligence.',
+            'I pursued the knowledge that a computer information systems(with a concentration in programming) degree had to offer. I learned about computer architecture, computer science theory, an array of programming, and aspects of artificial intelligence.',
     },
     {
          year: '2021',
