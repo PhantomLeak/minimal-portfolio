@@ -9,7 +9,8 @@ function Goals() {
             <div>
                 <li><i class="fa-brands fa-rust"></i> Learn Rust</li>
                 <li><i class="fa-brands fa-python"></i> Fiddle with machine learning</li>
-                <li><i class="fa fa-book"></i> Get Back Into Reading Daily</li>
+                <li><i class="fa-brands fa-aws"></i> Get AWS Developer Certification</li>
+                <li><i class="fa fa-cloud"></i> Host Alfred live for public use</li>
             </div>
          </div>
          <div className="mx-6">
@@ -17,19 +18,19 @@ function Goals() {
             <div>
                <li className='underline hover:text-blue-500'>
                   <a href='https://github.com/PhantomLeak/Alfred' target='_blank'>
-                     <i class="fa-brands fa-python mr-1"></i>
+                     <i className="fa-brands fa-python mr-1"></i>
                      Alfred (Virtual Assistent)
                   </a>
                </li>
                <li className='underline hover:text-blue-500'>
-                  <a href='https://github.com/PhantomLeak/Snake_Game' target='_blank'>
-                     <i class="fa-brands fa-rust mr-1"></i>
-                     Snake game rewrite
+                  <a href='https://github.com/PhantomLeak/Rusty_chat' target='_blank'>
+                     <i className="fa-brands fa-rust mr-1"></i>
+                     Rusty Chat
                   </a>
                </li>
                <li className='underline hover:text-blue-500'>
                   <a href='https://github.com/PhantomLeak/minimal-portfolio' target='_blank'>
-                     <i class="fa-brands fa-square-js mr-1"></i>
+                     <i className="fa-brands fa-react mr-1"></i>
                      Minimal Profolio (This site)
                   </a>
                </li>
