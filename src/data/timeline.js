@@ -1,8 +1,13 @@
 export default [
     {
-       year: 'Today',
+        year: '2023',
+        title: 'Software Developer - Team Lead',
+        details: 'Software developer and Team lead for ScalePad on the LifeCycle Insights Team'
+    },
+    {
+       year: '2021',
        title: 'Associate Full Stack Engineer',
-       duration: '2021 - Current',
+       duration: '1 Year 4 Months',
        details: 
           "Full stack engineer for LifeCycle Insights ",
     },

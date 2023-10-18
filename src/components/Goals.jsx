@@ -7,10 +7,9 @@ function Goals() {
          <div>
             <Title>Goals for {new Date().getFullYear()}</Title>
             <div>
-                <li><i class="fa-brands fa-rust"></i> Learn Rust</li>
+                <li><i class="fa-brands fa-rust"></i> Master Rust</li>
                 <li><i class="fa-brands fa-python"></i> Fiddle with machine learning</li>
                 <li><i class="fa-brands fa-aws"></i> Get AWS Developer Certification</li>
-                <li><i class="fa fa-cloud"></i> Host Alfred live for public use</li>
             </div>
          </div>
          <div className="mx-6">
@@ -19,13 +18,13 @@ function Goals() {
                <li className='underline hover:text-blue-500'>
                   <a href='https://github.com/PhantomLeak/Alfred' target='_blank'>
                      <i className="fa-brands fa-python mr-1"></i>
-                     Alfred (Virtual Assistent)
+                     Prettier Prints
                   </a>
                </li>
                <li className='underline hover:text-blue-500'>
                   <a href='https://github.com/PhantomLeak/Rusty_chat' target='_blank'>
                      <i className="fa-brands fa-rust mr-1"></i>
-                     Rusty Chat
+                     Rusty Ducky
                   </a>
                </li>
                <li className='underline hover:text-blue-500'>
