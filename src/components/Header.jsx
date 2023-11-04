@@ -4,16 +4,22 @@ function Header() {
     const [theme, setTheme] = useState(null);
 	
     useEffect(() => {
-		if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-			setTheme('dark');
+		let localData = JSON.parse(localStorage.getItem('minimalPortfolio'));
+		if (localData && localData?.theme) {
+			setTheme(localData.theme)
 		} else {
-			setTheme('light');
+			if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+				setTheme('dark');
+			} else {
+				setTheme('light');
+			}
 		}
 	}, []);
 
 	useEffect(() => {
 		if (theme === 'dark') {
 			document.documentElement.classList.add('dark');
+
 		} else {
 			document.documentElement.classList.remove('dark');
 		}
@@ -21,7 +27,14 @@ function Header() {
 
     const handleThemeSwitch = () => {
         setTheme(theme === 'dark' ? 'light' : 'dark');
+		updateLocalStorage();
     };
+
+	const updateLocalStorage = () => {
+		let settings = {'theme': theme === 'dark' ? 'light' : 'dark'}
+		localStorage.setItem('minimalPortfolio', JSON.stringify(settings));
+	};
+
 
 	return (
 		<div className='container max-w-screen-lg mx-auto'>
