@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import Header from './components/Header'
 import Intro from './components/Intro'
-import GitHubComponent from './components/GitHubComponent'
 import Goals from './components/Goals'
 import Timeline from './components/Timeline'
+import Bookshelf from './components/Bookshelf'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -18,6 +18,7 @@ function App() {
           <Intro />
           <Goals />
           <Timeline />
+          <Bookshelf />
           <Contact />
           <Footer />
         </div>
