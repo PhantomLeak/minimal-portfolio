@@ -34,5 +34,17 @@ export default [
         title: 'The Code Book',
         url: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1403181687i/17994.jpg',
         rating: '8'
+    },
+    {
+        year: '2023',
+        title: 'The Hitch-hikers guide to the galaxy',
+        url: 'https://kagi.com/proxy/51i+R7TVLBL.jpg?c=CXPfL3-FqybbvZNQU82_BGSCqYZMz5YT_CgNKn5TDDWCrgNbi05_NwyJlWhP3kOTZPI73A1Oo3_Rc4l312uq-w%3D%3D',
+        rating: '9'
+    },
+    {
+        year: '2023',
+        title: 'The 7 Habits of Highly Effective People',
+        url: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1620840541i/11727114.jpg',
+        rating: '7'
     }
 ]
