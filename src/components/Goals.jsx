@@ -5,7 +5,7 @@ function Goals() {
    return (
       <div className="flex flex-col md:flex-row justify-center items-center">
          <div className='max-sm:w-2/3 md:mr-3'>
-            <Title>Goals for {new Date().getFullYear()}</Title>
+            <Title className='text-left'>Goals for {new Date().getFullYear()}</Title>
             <div>
                 <li className='ml-4'><i class="fa-brands fa-rust"></i> Master Rust</li>
                 <li className='ml-4'><i class="fa-brands fa-python"></i> Fiddle with machine learning</li>
