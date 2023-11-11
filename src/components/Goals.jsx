@@ -3,8 +3,8 @@ import Title from './Title';
 
 function Goals() {
    return (
-      <div className="flex flex-col md:flex-row justify-center">
-         <div className='mr-3'>
+      <div className="flex flex-col md:flex-row justify-center items-center">
+         <div className='max-sm:w-2/3 md:mr-3'>
             <Title>Goals for {new Date().getFullYear()}</Title>
             <div>
                 <li className='ml-4'><i class="fa-brands fa-rust"></i> Master Rust</li>
@@ -12,7 +12,7 @@ function Goals() {
                 <li className='ml-4'><i class="fa-brands fa-aws"></i> Get AWS Developer Certification</li>
             </div>
          </div>
-         <div>
+         <div className='max-sm:w-2/3 max-sm:mt-3'>
             <Title>Current Projects</Title>
             <div>
                <li className='underline hover:text-blue-500 ml-4'>

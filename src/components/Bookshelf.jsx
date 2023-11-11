@@ -14,12 +14,12 @@ function Bookshelf() {
     }
 
     return (
-        <div className='flex overflow-x-auto overflow-y-visible mx-48 my-10'>
+        <div className='flex overflow-x-auto overflow-y-visible md:mx-48 my-10'>
             <button type='button' onClick={handleLeftClick}><i class="fa-solid fa-chevron-left"></i></button>
             <div className="flex overflow-x-auto overflow-y-visible mx-3" id='minimalBookshelf'>
                 {books.map((book, index) => (
                     <div>
-                        <div className='flex-grow-0 flex-shrink-0 ml-10 my-5'>
+                        <div className='flex-grow-0 flex-shrink-0 ml-10 my-5 mx-4'>
                             <BookCover
                                 height={250}
                                 width={150}>
