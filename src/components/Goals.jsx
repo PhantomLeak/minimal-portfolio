@@ -7,9 +7,9 @@ function Goals() {
          <div className='max-sm:w-2/3 md:mr-3'>
             <Title className='text-left'>Goals for {new Date().getFullYear()}</Title>
             <div>
-                <li className='ml-4'><i class="fa-brands fa-rust"></i> Master Rust</li>
+                <li className='ml-4'><i class="fa-brands fa-golang"></i> Master Golang</li>
                 <li className='ml-4'><i class="fa-brands fa-python"></i> Fiddle with machine learning</li>
-                <li className='ml-4'><i class="fa-brands fa-aws"></i> Get AWS Developer Certification</li>
+                <li className='ml-4'><i class="fa-brands fa-react"></i> Strong Foundations in React</li>
             </div>
          </div>
          <div className='max-sm:w-2/3 max-sm:mt-3'>
@@ -22,9 +22,9 @@ function Goals() {
                   </a>
                </li>
                <li className='underline hover:text-blue-500 ml-4'>
-                  <a href='https://github.com/PhantomLeak/Rusty_chat' target='_blank'>
-                     <i className="fa-brands fa-rust mr-1"></i>
-                     Rusty Ducky
+                  <a href='' target='_blank'>
+                     <i className="fa-brands fa-golang mr-1"></i>
+                     Secret Project <i class="fa-solid fa-face-smile-wink" />
                   </a>
                </li>
                <li className='underline hover:text-blue-500 ml-4'>

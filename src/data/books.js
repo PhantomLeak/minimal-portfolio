@@ -46,5 +46,11 @@ export default [
         title: 'The 7 Habits of Highly Effective People',
         url: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1620840541i/11727114.jpg',
         rating: '7'
+    },
+    {
+        year: '2024',
+        title: 'SPQR',
+        url: 'https://m.media-amazon.com/images/I/71GRXseK-rL._SL1200_.jpg',
+        rating: '?'
     }
 ]
