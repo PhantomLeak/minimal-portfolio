@@ -2,6 +2,7 @@ export default [
     {
         year: '2023',
         title: 'Software Developer - Team Lead',
+        duration: 'current',
         details: 'Software developer, Team lead, and Project Manager for ScalePad on the LifeCycle Insights Team. Mentoring and leading a team of developers to build and maintain the LifeCycle Insights platform.',
     },
     {

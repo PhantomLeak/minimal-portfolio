@@ -4,7 +4,7 @@ import Title from './Title';
 function Goals() {
    return (
       <div className="flex flex-col md:flex-row justify-center items-center">
-         <div className='max-sm:w-2/3 md:mr-3'>
+         <div className='max-sm:w-2/3 md:mr-10'>
             <Title className='text-left'>Goals for {new Date().getFullYear()}</Title>
             <div>
                 <li className='ml-4'><i class="fa-brands fa-golang"></i> Master Golang</li>

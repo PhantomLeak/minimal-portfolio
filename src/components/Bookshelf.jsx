@@ -15,7 +15,7 @@ function Bookshelf() {
 
     return (
         <div>
-            <div className='flex overflow-x-auto overflow-y-visible md:mx-48 my-10'>
+            <div className='flex overflow-x-auto overflow-y-visible'>
                 <button type='button' onClick={handleLeftClick}><i class="fa-solid fa-chevron-left"></i></button>
                 <div className="flex overflow-x-auto overflow-y-visible mx-3" id='minimalBookshelf'>
                     {books.map((book, index) => (
