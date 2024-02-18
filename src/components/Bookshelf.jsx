@@ -41,9 +41,6 @@ function Bookshelf() {
           <i className="fa-solid fa-chevron-right text-white"></i>
         </button>
       </div>
-      {/* <span className='text-center  md:mx-48 my-10'>
-                Scroll to see more books I've read. P.S. a ? means I'm currently readint it.
-            </span> */}
     </div>
   );
 }
