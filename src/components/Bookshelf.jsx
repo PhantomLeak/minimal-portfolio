@@ -14,9 +14,13 @@ function Bookshelf() {
     }
 
     return (
-        <div>
-            <div className='flex overflow-x-auto overflow-y-visible'>
-                <button type='button' onClick={handleLeftClick}><i class="fa-solid fa-chevron-left"></i></button>
+        <div className='mb-10'>
+            <span className='text-white text-2xl underline'>
+                <i class="fa-solid fa-book fa-xs mr-2"/>
+                My Bookshelf
+                </span>
+            <div className='flex overflow-x-auto overflow-y-visible mt-4'>
+                <button type='button' onClick={handleLeftClick}><i class="fa-solid fa-chevron-left text-white"></i></button>
                 <div className="flex overflow-x-auto overflow-y-visible mx-3" id='minimalBookshelf'>
                     {books.map((book, index) => (
                         <div>
@@ -27,15 +31,15 @@ function Bookshelf() {
                                     <img src={book.url} />
                                 </BookCover>
                             </div>
-                            <span className='ml-12'>Rating: {book.rating}/10</span>
+                            <span className='ml-12 text-white'>Rating: {book.rating}/10</span>
                         </div>
                     ))}
                 </div>
-                <button type='button' onClick={handleRightClick}><i className="fa-solid fa-chevron-right"></i></button>
+                <button type='button' onClick={handleRightClick}><i className="fa-solid fa-chevron-right text-white"></i></button>
             </div>
-            <span className='text-center  md:mx-48 my-10'>
+            {/* <span className='text-center  md:mx-48 my-10'>
                 Scroll to see more books I've read. P.S. a ? means I'm currently readint it.
-            </span>
+            </span> */}
         </div>
     )
 }

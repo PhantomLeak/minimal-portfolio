@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Header from './components/Header'
 import Intro from './components/Intro'
+import Projects from './components/Projects'
 import Goals from './components/Goals'
 import Timeline from './components/Timeline'
 import Bookshelf from './components/Bookshelf'
@@ -13,9 +14,10 @@ function App() {
     <div>
       <Header />
       {/* div that holds all components for the site */}
-      <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
+      <div className="light-bg text-stone-900 dark:text-stone-300 min-h-screen font-inter">
         <div className="max-w-5xl w-11/12 mx-auto">
           <Intro />
+          <Projects />
           <Goals />
           <Timeline />
           <Bookshelf />

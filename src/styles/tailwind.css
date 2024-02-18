@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 .fa-heart{
-    color: blue;
+    color: #75aad2;
+}
+
+.light-bg {
+    background: linear-gradient(to top, #09203f 0%, #537895 100%); 
 }

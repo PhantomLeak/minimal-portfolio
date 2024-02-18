@@ -10,7 +10,10 @@ function Contact() {
                method="POST"
                className="flex flex-col w-full"
             >
-               <Title>Contact</Title>
+               <span className='text-white text-2xl mb-2 underline'>
+                  <i class="fa-solid fa-envelope fa-xs mr-2"/>
+                  Contact Me 
+                  </span>
                <input
                   type="text"
                   name="name"
