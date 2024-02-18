@@ -8,7 +8,7 @@ function Intro() {
             Dylan
             <span className='text-sm ml-2 font-light'>
                aka Phantomleak
-               <i class="fa-brands fa-github ml-1 hover:cursor-pointer" onClick={()=>{window.open( `https://github.com/PhantomLeak`, '_blank')}}/>
+               <i className="fa-brands fa-github ml-1 hover:cursor-pointer" onClick={()=>{window.open( `https://github.com/PhantomLeak`, '_blank')}}/>
             </span>
          </h1>
          <p className="text-base md:text-xl text-stone-300 mb-3 font-medium">Software Developer & Problem Solver</p>

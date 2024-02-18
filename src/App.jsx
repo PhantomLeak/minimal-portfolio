@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Header from './components/Header'
+// import Header from './components/Header'
 import Intro from './components/Intro'
 import Projects from './components/Projects'
 import Goals from './components/Goals'
@@ -9,10 +9,9 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function App() {
-
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       {/* div that holds all components for the site */}
       <div className="light-bg text-stone-900 dark:text-stone-300 min-h-screen font-inter">
         <div className="max-w-5xl w-11/12 mx-auto">

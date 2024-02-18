@@ -11,7 +11,7 @@ function Contact() {
                className="flex flex-col w-full"
             >
                <span className='text-white text-2xl mb-2 underline font-bold'>
-                  <i class="fa-solid fa-envelope fa-xs mr-2"/>
+                  <i className="fa-solid fa-envelope fa-xs mr-2"/>
                   Contact Me 
                   </span>
                <input

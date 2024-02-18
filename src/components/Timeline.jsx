@@ -8,7 +8,7 @@ function Timeline() {
       <div className="flex flex-col md:flex-row justify-center my-10">
          <div className="w-full">
             <span className='text-white text-2xl underline font-bold'>
-               <i class="fa-solid fa-timeline fa-xs mr-2" />
+               <i className="fa-solid fa-timeline fa-xs mr-2" />
                Timeline
                </span>
             {timeline.map((item, index) => (

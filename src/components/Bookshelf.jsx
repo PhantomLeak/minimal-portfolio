@@ -16,11 +16,11 @@ function Bookshelf() {
     return (
         <div className='mb-10'>
             <span className='text-white text-2xl underline font-bold'>
-                <i class="fa-solid fa-book fa-xs mr-2"/>
+                <i className="fa-solid fa-book fa-xs mr-2"/>
                 My Bookshelf
                 </span>
             <div className='flex overflow-x-auto overflow-y-visible mt-4'>
-                <button type='button' onClick={handleLeftClick}><i class="fa-solid fa-chevron-left text-white"></i></button>
+                <button type='button' onClick={handleLeftClick}><i className="fa-solid fa-chevron-left text-white"></i></button>
                 <div className="flex overflow-x-auto overflow-y-visible mx-3" id='minimalBookshelf'>
                     {books.map((book, index) => (
                         <div>
@@ -29,6 +29,7 @@ function Bookshelf() {
                                     height={250}
                                     width={150}>
                                     <img src={book.url} />
+                                    key={index + '_item'}
                                 </BookCover>
                             </div>
                             <span className='ml-12 text-white'>Rating: {book.rating}/10</span>
