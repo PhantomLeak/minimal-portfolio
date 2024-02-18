@@ -15,7 +15,7 @@ function Bookshelf() {
 
     return (
         <div className='mb-10'>
-            <span className='text-white text-2xl underline'>
+            <span className='text-white text-2xl underline font-bold'>
                 <i class="fa-solid fa-book fa-xs mr-2"/>
                 My Bookshelf
                 </span>

@@ -7,7 +7,7 @@ function Timeline() {
    return (
       <div className="flex flex-col md:flex-row justify-center my-10">
          <div className="w-full">
-            <span className='text-white text-2xl underline'>
+            <span className='text-white text-2xl underline font-bold'>
                <i class="fa-solid fa-timeline fa-xs mr-2" />
                Timeline
                </span>
