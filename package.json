@@ -1,12 +1,11 @@
 {
-  "name": "minimal-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/PhantomLeak",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
