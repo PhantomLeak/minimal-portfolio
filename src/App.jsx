@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from "react";
 // import Header from './components/Header'
-import Intro from './components/Intro'
-import Projects from './components/Projects'
-import Goals from './components/Goals'
-import Timeline from './components/Timeline'
-import Bookshelf from './components/Bookshelf'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Intro from "./components/Intro";
+import Projects from "./components/Projects";
+import Goals from "./components/Goals";
+import Timeline from "./components/Timeline";
+import Bookshelf from "./components/Bookshelf";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

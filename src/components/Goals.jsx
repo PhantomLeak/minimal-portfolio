@@ -33,8 +33,9 @@ function Goals() {
             Strong Foundations in React
             <br />
             <span className="text-xs ml-5 text-stone-300">
-              I have spend most of my JavaScript time in VueJS and I want to begin learning React
-                to have a better understanding of the JavaScript ecosystem and dyversify my skills.
+              I have spend most of my JavaScript time in VueJS and I want to
+              begin learning React to have a better understanding of the
+              JavaScript ecosystem and dyversify my skills.
             </span>
           </li>
         </div>
