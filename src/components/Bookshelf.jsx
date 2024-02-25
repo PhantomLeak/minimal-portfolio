@@ -1,6 +1,8 @@
 import React from "react";
 import { BookCover } from "book-cover-3d";
 import books from "../data/books";
+import { Tooltip } from '@mantine/core';
+// import { Carousel } from '@mantine/carousel';
 
 function Bookshelf() {
   const handleRightClick = () => {
@@ -11,11 +13,17 @@ function Bookshelf() {
     document.getElementById("minimalBookshelf").scrollLeft -= 600;
   };
 
+  const toolTipMesage = "These are some of the books I've read and rated. ratings are based on my personal opinion. '?' means I am currently reading the book"
+
   return (
     <div className="mb-10">
       <span className="text-white text-2xl underline font-bold">
         <i className="fa-solid fa-book fa-xs mr-2" />
         My Bookshelf
+        {" "}
+        <Tooltip label={toolTipMesage} multiline withArrow w={300}>
+          <i className="fa-solid fa-circle-info fa-xs text-white"/>
+        </Tooltip>
       </span>
       <div className="flex overflow-x-auto overflow-y-visible mt-4">
         <button type="button" onClick={handleLeftClick}>

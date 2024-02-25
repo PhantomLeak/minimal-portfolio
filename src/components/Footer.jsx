@@ -30,7 +30,7 @@ function Footer() {
       <div className="mt-5">
         <p className="text-sm mt-2  opacity-50 text-white">
           &copy; {new Date().getFullYear()} Phantomleak. Made with{" "}
-          <i className="fa fa-heart heart" style={{ color: "#537895" }}></i> in
+          <i className="fa fa-heart heart" style={{ color: "#a1caea" }}></i> in
           Florida, USA.
         </p>
       </div>

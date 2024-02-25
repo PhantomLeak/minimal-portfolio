@@ -7,12 +7,12 @@ import Timeline from "./components/Timeline";
 import Bookshelf from "./components/Bookshelf";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import '@mantine/core/styles.css';
+import { MantineProvider } from '@mantine/core';
 
 function App() {
   return (
-    <div>
-      {/* <Header /> */}
-      {/* div that holds all components for the site */}
+    <MantineProvider>
       <div className="light-bg text-stone-900 dark:text-stone-300 min-h-screen font-inter">
         <div className="max-w-5xl w-11/12 mx-auto">
           <Intro />
@@ -24,7 +24,7 @@ function App() {
           <Footer />
         </div>
       </div>
-    </div>
+    </MantineProvider>
   );
 }
 

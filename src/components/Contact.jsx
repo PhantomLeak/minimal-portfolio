@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "./Title";
+import { TextInput, Textarea, Button } from '@mantine/core';
 
 function Contact() {
   return (
@@ -14,30 +14,27 @@ function Contact() {
             <i className="fa-solid fa-envelope fa-xs mr-2" />
             Contact Me
           </span>
-          <input
-            type="text"
+          <TextInput
+            radius="md"
             name="name"
             placeholder="Name"
-            className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
+            className="mb-3"
           />
-          <input
-            type="text"
+          <TextInput
+            radius="md"
             name="email"
+            className="mb-3"
             placeholder="Email"
-            className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none"
           />
-          <textarea
+          <Textarea
+            size="md"
             name="message"
+            className="mb-3"
             placeholder="Message"
-            rows="10"
-            className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none"
           />
-          <button
-            type="submit"
-            className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-blue-500 to-green-500 drop-shadow-md hover:stroke-white"
-          >
-            Contact Me
-          </button>
+          
+          <Button variant="outline"
+          color="rgba(255, 255, 255, 1)" type="submit">Contact Me</Button>;
         </form>
       </div>
     </div>
