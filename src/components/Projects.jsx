@@ -11,7 +11,7 @@ function Projects() {
         <div className="mt-2">
           <li className="ml-4 text-white">
             <a
-              href="https://github.com/PhantomLeak/prettier_printsd"
+              href="https://github.com/PhantomLeak/prettier_prints"
               target="_blank"
               className="text-white hover:underline"
             >
