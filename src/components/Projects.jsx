@@ -33,14 +33,18 @@ function Projects() {
             </span>
           </li>
           <li className="ml-4 text-white mt-1">
-            <span className="">
-              <i className="fa-brands fa-golang mr-1"></i>
-              Secret Project <i className="fa-solid fa-face-smile-wink fa-xs" />
-            </span>
-            <br />
-            <span className="text-xs ml-5 text-stone-300">
-              A secret project I'm working on. It's a surprise!
-            </span>
+            <a
+                href="https://poseidonsdaily.com/"
+                target="_blank"
+                className="text-white hover:underline"
+              >
+                <i className="fa-brands fa-golang mr-1"></i>
+                Poseidon's Daily
+              </a>
+              <br />
+              <span className="text-xs ml-5 text-stone-300">
+                Marine Health App for simple and accurate water data at your fingertips.
+              </span>
           </li>
           <li className="ml-4 text-white mt-1">
             <a
@@ -53,8 +57,8 @@ function Projects() {
             </a>
             <br />
             <span className="text-xs ml-5 text-stone-300">
-              This Site! A minimal portfolio site built with React and
-              TailwindCSS.
+              This Site! A minimal portfolio site built with React, Maintine(JSX component library) and
+              TailwindCSS for styling.
             </span>
           </li>
         </div>
