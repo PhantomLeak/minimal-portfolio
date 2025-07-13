@@ -1,24 +1,35 @@
 import React from "react";
 
-function TimelineItem({ year, title, duration, details }) {
+function TimelineItem({ year, title, duration, details, isLeft }) {
   return (
-    <ol className="flex flex-col md:flex-row relative border-l border-stone-200 mt-3">
-      <li className="mb-10 ml-4">
-        <div className="absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-stone-900 dark:bg-stone-700" />
-        <span className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
-          <span className="inline-block px-2 py-1 font-semibold text-white dark:text-stone-900 bg-stone-900 dark:bg-white rounded-md">
+    <div className={`flex ${isLeft ? 'md:flex-row' : 'md:flex-row-reverse'} flex-col items-center`}>
+      {/* Timeline dot */}
+      <div className="relative flex-shrink-0 order-1 md:order-none">
+        <div className="w-4 h-4 rounded-full bg-accent-light z-10 relative mx-auto">
+          <div className="absolute inset-0 rounded-full bg-accent-light animate-pulse opacity-50 blur-sm"></div>
+        </div>
+      </div>
+      
+      {/* Content card */}
+      <div 
+        className={`modern-card p-5 md:w-5/12 w-full ${isLeft ? 'md:mr-auto' : 'md:ml-auto'} mb-4 md:mb-0`}
+      >
+        <div className="flex flex-wrap items-center mb-2">
+          <span className="px-3 py-1 text-xs font-semibold bg-gradient-to-r from-accent-light to-accent-dark text-white rounded-full mr-3">
             {year}
           </span>
           <h3 className="text-lg font-semibold text-white">{title}</h3>
-          <div className="my-1 text-sm font-normal leading-none text-stone-400 dark:text-stone-300">
-            {duration}
-          </div>
-        </span>
-        <span className="my-2 text-base font-normal text-stone-300">
+        </div>
+        
+        <div className="text-sm font-normal text-accent-light mb-2">
+          {duration}
+        </div>
+        
+        <p className="text-sm text-stone-300 leading-relaxed">
           {details}
-        </span>
-      </li>
-    </ol>
+        </p>
+      </div>
+    </div>
   );
 }
 

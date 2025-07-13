@@ -1,40 +1,55 @@
 import React from "react";
 
 function Footer() {
-  return (
-    <div className="py-5 text-center">
-      <div className="container max-w-screen-lg mx-auto">
-        <div>
-          <div className="flex flex-wrap justify-center gap-2">
-            {/* LinkedIn */}
-            <i
-              className="fa-brands fa-linkedin fa-xl hover:cursor-pointer text-white"
-              onClick={() => {
-                window.open(
-                  `https://www.linkedin.com/in/dylanstocking/`,
-                  "_blank",
-                );
-              }}
-            />
+  const socialLinks = [
+    {
+      icon: "fa-brands fa-linkedin",
+      url: "https://www.linkedin.com/in/dylanstocking/",
+      label: "LinkedIn"
+    },
+    {
+      icon: "fa-brands fa-github",
+      url: "https://github.com/PhantomLeak",
+      label: "GitHub"
+    }
+  ];
 
-            {/* GitHub */}
-            <i
-              className="fa-brands fa-github fa-xl hover:cursor-pointer text-white"
-              onClick={() => {
-                window.open(`https://github.com/PhantomLeak`, "_blank");
-              }}
-            />
-          </div>
+  return (
+    <footer className="py-10 mt-10 border-t border-surface-light border-opacity-10">
+      <div className="container max-w-screen-lg mx-auto">
+        {/* Social links */}
+        <div className="flex justify-center mb-8">
+          {socialLinks.map((link, index) => (
+            <a
+              key={index}
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={link.label}
+              className="mx-3 w-10 h-10 rounded-full bg-surface-light bg-opacity-20 flex items-center justify-center transition-all duration-300 hover:bg-opacity-40 hover:shadow-glow hover:scale-110"
+            >
+              <i className={`${link.icon} text-accent-light`}></i>
+            </a>
+          ))}
+        </div>
+        
+        {/* Divider with gradient */}
+        <div className="w-24 h-px mx-auto bg-gradient-to-r from-transparent via-accent-light to-transparent mb-6"></div>
+        
+        {/* Copyright */}
+        <div className="text-center">
+          <p className="text-sm text-stone-400">
+            &copy; {new Date().getFullYear()} Phantomleak. Made with{" "}
+            <i className="fa fa-heart fa-beat-fade" style={{ '--fa-beat-fade-opacity': 0.67, '--fa-beat-fade-scale': 1.075 }}></i> in
+            Florida, USA.
+          </p>
+          
+          <p className="text-xs text-stone-500 mt-2">
+            Built with React, Tailwind CSS & Mantine UI
+          </p>
         </div>
       </div>
-      <div className="mt-5">
-        <p className="text-sm mt-2  opacity-50 text-white">
-          &copy; {new Date().getFullYear()} Phantomleak. Made with{" "}
-          <i className="fa fa-heart heart" style={{ color: "#a1caea" }}></i> in
-          Florida, USA.
-        </p>
-      </div>
-    </div>
+    </footer>
   );
 }
 
